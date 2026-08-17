@@ -667,7 +667,8 @@
   <button class="lightbox__btn lightbox__btn--prev" id="lbPrev" aria-label="Previous image">‹</button>
   <button class="lightbox__btn lightbox__btn--next" id="lbNext" aria-label="Next image">›</button>
   <div>
-    <img id="lbImg" src="" alt="">
+    <!-- transparent placeholder: an empty src would resolve to the page URL and refetch it -->
+    <img id="lbImg" src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="">
     <p class="lightbox__cap" id="lbCap"></p>
   </div>
 </div>
