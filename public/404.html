@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Page not found — Mandy Makeup</title>
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500&family=Playfair+Display:ital,wght@0,600;1,400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/css/styles.css">
+<style>
+  .oops {
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    padding: var(--gutter);
+    background: linear-gradient(180deg, var(--blush-50), var(--cream));
+  }
+  .oops__inner { display: grid; gap: 1.4rem; justify-items: center; max-width: 34rem; }
+  .oops h1 { font-size: clamp(3.5rem, 12vw, 6rem); }
+</style>
+</head>
+<body>
+  <main class="oops">
+    <div class="oops__inner">
+      <span class="eyebrow">Error 404</span>
+      <h1>Smudged.</h1>
+      <p class="lede">
+        That page has been blended away. Let's get you back to somewhere prettier.
+      </p>
+      <a class="btn" href="/">Back to the studio</a>
+    </div>
+  </main>
+</body>
+</html>

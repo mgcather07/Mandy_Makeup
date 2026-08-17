@@ -1,0 +1,12 @@
+{
+  "name": "Mandy Makeup",
+  "short_name": "Mandy",
+  "description": "Boutique bridal and editorial makeup artistry.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fffbf8",
+  "theme_color": "#351522",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" }
+  ]
+}
