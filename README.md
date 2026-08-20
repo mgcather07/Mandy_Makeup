@@ -1,10 +1,10 @@
-# Mandy Makeup
+# Lumière Beauty Studio
 
-Marketing site for **Mandy Makeup**, a boutique bridal and editorial makeup studio.
+Marketing site for **Lumière Beauty Studio**, a boutique bridal and editorial makeup studio.
 Static HTML/CSS/JS — no build step, no framework, no dependencies — deployed to
 Firebase Hosting.
 
-**Live:** https://mandymakeup.web.app
+**Live:** https://lumierebeauty.web.app
 
 ---
 
@@ -28,7 +28,7 @@ firebase serve --only hosting
 firebase deploy --only hosting
 ```
 
-The project is pinned to the `mandy-makeup` Firebase project in `.firebaserc`.
+The project deploys to the `mm-websites` Firebase project, Hosting site `lumierebeauty` (see `.firebaserc` / `firebase.json`).
 
 ---
 
@@ -59,7 +59,7 @@ The copy and contact details are realistic placeholders. Replace these:
 
 | What | Where |
 |---|---|
-| Email `hello@mandymakeup.com` | `index.html` (booking, footer, JSON-LD), `js/main.js` |
+| Email `hello@lumierebeauty.com` | `index.html` (booking, footer, JSON-LD), `js/main.js` |
 | Phone `(555) 018-2470` | `index.html` (booking, footer, JSON-LD) |
 | Address `218 Rosewood Avenue, Studio 4`, Dallas TX | `index.html` (booking, footer, JSON-LD) |
 | Opening hours | `index.html` (booking, footer, JSON-LD) |
@@ -67,7 +67,7 @@ The copy and contact details are realistic placeholders. Replace these:
 | Stats (10+ years, 430+ clients, 5.0) | `index.html` — about section + hero |
 | Testimonial quotes and names | `index.html` |
 | Social links (currently generic homepages) | `index.html` footer |
-| Photography | `public/img/` — swap in Mandy's real portfolio |
+| Photography | `public/img/` — swap in the studio's real portfolio |
 
 ### Wiring up the booking form
 

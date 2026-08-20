@@ -1,5 +1,5 @@
 /* =============================================================================
-   Mandy Makeup — interactions
+   Lumière Beauty Studio — interactions
    Vanilla JS, no dependencies. Everything degrades gracefully without it.
    ========================================================================== */
 (function () {
@@ -337,7 +337,7 @@
             done('Thank you, ' + data.name + '. Your enquiry is in — we reply within one business day.');
           })
           .catch(function () {
-            done('Sorry, something went wrong. Please email hello@mandymakeup.com directly.');
+            done('Sorry, something went wrong. Please email hello@lumierebeauty.com directly.');
           });
         return;
       }
@@ -351,11 +351,11 @@
         '\n\n' + data.message;
 
       window.location.href =
-        'mailto:hello@mandymakeup.com' +
+        'mailto:hello@lumierebeauty.com' +
         '?subject=' + encodeURIComponent('Booking enquiry — ' + data.service) +
         '&body=' + encodeURIComponent(body);
 
-      done('Opening your email app so you can send the enquiry. If nothing happens, email hello@mandymakeup.com.');
+      done('Opening your email app so you can send the enquiry. If nothing happens, email hello@lumierebeauty.com.');
     });
   }
 })();

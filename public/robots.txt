@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mandy-makeup.web.app/sitemap.xml
+Sitemap: https://lumierebeauty.web.app/sitemap.xml
