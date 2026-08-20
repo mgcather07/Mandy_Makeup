@@ -4,7 +4,7 @@ Marketing site for **Mandy Makeup**, a boutique bridal and editorial makeup stud
 Static HTML/CSS/JS — no build step, no framework, no dependencies — deployed to
 Firebase Hosting.
 
-**Live:** https://mandy-makeup.web.app
+**Live:** https://mandymakeup.web.app
 
 ---
 
